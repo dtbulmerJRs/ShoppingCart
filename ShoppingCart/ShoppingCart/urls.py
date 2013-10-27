@@ -13,5 +13,5 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    #url(r'^ShoppingCartApp/', include('ShoppingCartApp.urls', namespace="ShoppingCartApp")),
+    url(r'^ShoppingCartApp/', include('ShoppingCartApp.urls', namespace="ShoppingCartApp")),
 )
