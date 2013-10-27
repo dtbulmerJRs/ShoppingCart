@@ -43,7 +43,7 @@ class Customer(User):
         Cart.objects.get(customer=self)
 
     def orders(self):
-        Order.objects.filter(customer=self)
+        return Order.objects.filter(customer=self)
 
     def __str__(self):
         return "%d: %s %s" % (self.id, self.first_name, self.last_name)
@@ -53,27 +53,43 @@ class Store(models.Model):
     name = models.CharField(max_length=100)
     merchant = models.OneToOneField(Merchant)
 
-    def products(self):   ###  need to test this one
-        Product.objects.filter(store=self)
+    def products(self):
+        return Product.objects.filter(store=self)
 
     def __str__(self):
         return "%d: %s which belongs to %s" % (self.id, self.name, self.merchant)
+
+
+class Cart(models.Model):
+    customer = models.OneToOneField(Customer)
+
+    def products(self):
+        return Product.objects.filter(carts=self)
+
+    def total(self):
+        tot = 0
+        for product in self.products():
+            tot += product.price
+        return tot
+
+    def __str__(self):
+        return "%d: Cart for %s" % (self.id, self.customer)
 
 
 class Order(models.Model):
     customer = models.ForeignKey(Customer)
 
     def products(self):
-        Product.objects.filter(order=self)
+        return Product.objects.filter(orders=self)
 
     def total(self):
         tot = 0
-        for product in Product.objects.filter(order=self):
+        for product in self.products():
             tot += product.price
         return tot
 
     def __str__(self):
-        return "%s" % self.customer
+        return "%d: %s" % (self.id, self.customer)
 
 
 class Product(models.Model):
@@ -81,20 +97,10 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2)
     store = models.ForeignKey(Store)
     orders = models.ManyToManyField(Order)
+    carts = models.ManyToManyField(Cart)
 
     def __str__(self):
-        return "%s which costs %d and belongs to %s" % (self.name, self.price, self.store)
+        return "%d: %s which costs %d and belongs to %s" % (self.id, self.name, self.price, self.store)
 
 
-class Cart(models.Model):
-    customer = models.OneToOneField(Customer)
-    products = models.OneToManyField(Product)
 
-    def total(self):
-        tot = 0
-        for product in Product.objects.filter(order=self):
-            tot += product.price
-        return tot
-
-    def __str__(self):
-        return "Cart for %s" % self.customer
