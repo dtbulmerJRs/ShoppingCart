@@ -27,7 +27,7 @@ Rules
 from django.db import models
 from django.contrib.auth.models import User
 
-
+"""
 class Merchant(User):
 
     def store(self):
@@ -47,11 +47,11 @@ class Customer(User):
 
     def __str__(self):
         return "%d: %s %s" % (self.id, self.first_name, self.last_name)
-
+"""
 
 class Store(models.Model):
     name = models.CharField(max_length=100)
-    merchant = models.OneToOneField(Merchant)
+    merchant = models.OneToOneField(User)
 
     def products(self):
         return Product.objects.filter(store=self)
@@ -61,7 +61,7 @@ class Store(models.Model):
 
 
 class Cart(models.Model):
-    customer = models.OneToOneField(Customer)
+    customer = models.OneToOneField(User)
 
     def products(self):
         return Product.objects.filter(carts=self)
@@ -77,7 +77,7 @@ class Cart(models.Model):
 
 
 class Order(models.Model):
-    customer = models.ForeignKey(Customer)
+    customer = models.ForeignKey(User)
 
     def products(self):
         return Product.objects.filter(orders=self)
@@ -101,6 +101,4 @@ class Product(models.Model):
 
     def __str__(self):
         return "%d: %s which costs %d and belongs to %s" % (self.id, self.name, self.price, self.store)
-
-
 
