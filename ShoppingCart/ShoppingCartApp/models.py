@@ -8,10 +8,10 @@ Legend
     -< : 1 to many
 
 Model relationships
-    Merchant User (inherit from User) -- Store -< Product
+    Merchant -- Store -< Product
 
-    Customer User (inherit from User) -- Cart  -< Product
-                                      -- Order -< Product
+    Customer -- Cart  -< Product
+             -- Order -< Product
 
 Model outline
     Store: name, Merchant, Products
@@ -27,27 +27,6 @@ Rules
 from django.db import models
 from django.contrib.auth.models import User
 
-"""
-class Merchant(User):
-
-    def store(self):
-        Store.objects.get(merchant=self)
-
-    def __str__(self):
-        return "%d: %s %s" % (self.id, self.first_name, self.last_name)
-
-
-class Customer(User):
-
-    def cart(self):
-        Cart.objects.get(customer=self)
-
-    def orders(self):
-        return Order.objects.filter(customer=self)
-
-    def __str__(self):
-        return "%d: %s %s" % (self.id, self.first_name, self.last_name)
-"""
 
 class Store(models.Model):
     name = models.CharField(max_length=100)
@@ -60,8 +39,18 @@ class Store(models.Model):
         return "%d: %s which belongs to %s" % (self.id, self.name, self.merchant)
 
 
+class Product(models.Model):
+    name = models.CharField(max_length=100)
+    price = models.DecimalField(max_digits=6, decimal_places=2)
+    store = models.ForeignKey(Store)
+
+    def __str__(self):
+        return "%d: %s which costs %d and belongs to %s" % (self.id, self.name, self.price, self.store)
+
+
 class Cart(models.Model):
     customer = models.OneToOneField(User)
+    products = models.ManyToManyField(Product, through='ProductCart')
 
     def products(self):
         return Product.objects.filter(carts=self)
@@ -78,9 +67,7 @@ class Cart(models.Model):
 
 class Order(models.Model):
     customer = models.ForeignKey(User)
-
-    def products(self):
-        return Product.objects.filter(orders=self)
+    products = models.ManyToManyField(Product, through='ProductOrder')
 
     def total(self):
         tot = 0
@@ -92,13 +79,14 @@ class Order(models.Model):
         return "%d: %s" % (self.id, self.customer)
 
 
-class Product(models.Model):
-    name = models.CharField(max_length=100)
-    price = models.DecimalField(max_digits=6, decimal_places=2)
-    store = models.ForeignKey(Store)
-    orders = models.ManyToManyField(Order)
-    carts = models.ManyToManyField(Cart)
+class ProductOrder(models.Model):
+    product = models.ForeignKey(Product)
+    order = models.ForeignKey(Order)
 
-    def __str__(self):
-        return "%d: %s which costs %d and belongs to %s" % (self.id, self.name, self.price, self.store)
+
+class ProductCart(models.Model):
+    product = models.ForeignKey(Product)
+    cart = models.ForeignKey(Cart)
+
+
 

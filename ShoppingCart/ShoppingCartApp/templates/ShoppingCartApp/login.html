@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+
+    <form action="" method="post">
+          <fieldset class="main" id="login">
+              {% csrf_token %}
+              {% if message %}
+                <p>{{ message }}</p>
+              {% endif %}
+
+              {% for field in form %}
+                <p>{{ field.errors }} {{ field.label_tag }} {{ field }}</p>
+              {% endfor %}
+
+              <input type="submit" value="Login" />
+
+              <p/>
+          </fieldset>
+    </form>
+
+    <p><a href="/ShoppingCartApp/register/">Click here</a> to register</p>
+
+{% endblock %}

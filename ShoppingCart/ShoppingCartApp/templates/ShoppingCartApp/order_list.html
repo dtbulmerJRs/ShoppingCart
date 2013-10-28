@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Customer Home{% endblock %}
+
+{% block content %}
+
+<ul>
+    Orders for User {{user}}
+    {% for order in object_list %}
+        {% for product in order.products.all %}
+            <li>
+                {{product.name}}, ${{product.price}}
+            </li>
+        {% endfor %}
+    {% endfor %}
+</ul>
+{% endblock %}

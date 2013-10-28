@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',   # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/Projects/python/ShoppingCart/ShoppingCart/ShoppingCart/db_files/sqlite_db_file',   # Or path to database file if using sqlite3.
+        'NAME': '/Projects/python/ShoppingCart/ShoppingCart/ShoppingCart/db_files/sqlite_db_file2',   # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': '',
         'PASSWORD': '',
@@ -34,6 +34,9 @@ TIME_ZONE = 'America/New_York'
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'en-us'
+
+LOGIN_URL = "/ShoppingCartApp/login"
+LOGOUT_URL = LOGIN_URL
 
 SITE_ID = 1
 
@@ -120,11 +123,14 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #'grappelli',
     'django.contrib.admin',
     'django.contrib.admindocs',
     'registration',
     'ShoppingCartApp'
 )
+
+#GRAPPELLI_ADMIN_TITLE = "Shopping Cart"
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
 

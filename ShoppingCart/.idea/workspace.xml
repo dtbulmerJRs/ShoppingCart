@@ -23,72 +23,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingCart/urls.py">
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="0" column="0" selection-start="0" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="57" selection-start="743" selection-end="743" vertical-scroll-proportion="0.36515513" vertical-offset="0" max-vertical-offset="838">
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="20" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_success.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/register_success.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="171" selection-end="171" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="0" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1870">
-              <folding>
-                <element signature="e#760#788#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#32#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,25 +37,87 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShoppingCartApp/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+            <state line="14" column="26" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding>
+                <element signature="e#32#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="32" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
+              <folding>
+                <element signature="e#685#713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authgroup.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/sql/authgroup.sql">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+            <state line="8" column="78" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="41" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.53621495" vertical-offset="0" max-vertical-offset="1377">
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python33/Lib/site-packages/django/contrib/auth/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="4" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/index.html">
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="22" column="74" selection-start="544" selection-end="614" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_success.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/register_success.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="48" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="20" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -131,23 +133,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ShoppingCart/urls.py" />
-        <option value="$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/index.html" />
-        <option value="$PROJECT_DIR$/ShoppingCart/settings.py" />
-        <option value="$PROJECT_DIR$/ShoppingCartApp/forms.py" />
-        <option value="$PROJECT_DIR$/ShoppingCartApp/urls.py" />
-        <option value="$PROJECT_DIR$/ShoppingCartApp/models.py" />
-        <option value="$PROJECT_DIR$/ShoppingCartApp/admin.py" />
         <option value="$PROJECT_DIR$/ShoppingCartApp/templates/register.html" />
+        <option value="$PROJECT_DIR$/ShoppingCart/urls.py" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/customer_home.html" />
+        <option value="$PROJECT_DIR$/ShoppingCart/settings.py" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/admin.py" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/models.py" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/login.html" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/order_list.html" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/templates/base.html" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/index.html" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/templates/register_success.html" />
         <option value="$PROJECT_DIR$/ShoppingCartApp/views.py" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/urls.py" />
+        <option value="$PROJECT_DIR$/ShoppingCartApp/forms.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="996" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -315,10 +322,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\python\ShoppingCart\ShoppingCart\ShoppingCart\db_files" />
+      <recent name="C:\Projects\python\ShoppingCart\ShoppingCart\ShoppingCartApp\templates\ShoppingCartApp" />
       <recent name="C:\Projects\python\ShoppingCart\ShoppingCart\ShoppingCartApp" />
       <recent name="C:\Projects\python\ShoppingCart\ShoppingCart\ShoppingCartApp\templates" />
-      <recent name="C:\Projects\python\ShoppingCart\ShoppingCart\ShoppingCartApp\templates\ShoppingCartApp" />
-      <recent name="C:\Projects\python\ShoppingCart\ShoppingCart\ShoppingCart\db_files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\python\ShoppingCart\ShoppingCart\ShoppingCartApp\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -455,14 +465,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="996" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13880126" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1375" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -470,7 +481,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -489,26 +499,33 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/tests.py">
+    <entry file="file://$PROJECT_DIR$/ShoppingCart/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
-          <folding />
+        <state line="19" column="65" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCart/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="19" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2788">
+        <state line="38" column="22" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/forms.py">
+    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/order_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding>
-            <element signature="e#32#56#0" expanded="true" />
-          </folding>
+        <state line="6" column="20" selection-start="118" selection-end="118" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="255">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -519,39 +536,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1870">
-          <folding>
-            <element signature="e#760#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/sql/authgroup.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="838">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/register_success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="171" selection-end="171" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="872">
+        <state line="1" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
           <folding />
         </state>
       </provider>
@@ -563,27 +550,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingCart/urls.py">
+    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/register_success.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state line="5" column="48" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python33/Lib/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="4" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="2431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/templates/ShoppingCartApp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="74" selection-start="544" selection-end="614" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="510">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCartApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state line="8" column="78" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="32" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
+          <folding>
+            <element signature="e#685#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding>
+            <element signature="e#32#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCartApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding>
+            <element signature="e#32#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCartApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="57" selection-start="743" selection-end="743" vertical-scroll-proportion="0.36515513" vertical-offset="0" max-vertical-offset="838">
+        <state line="27" column="41" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.53621495" vertical-offset="0" max-vertical-offset="1377">
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
