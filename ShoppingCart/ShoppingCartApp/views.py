@@ -64,13 +64,14 @@ def login_page(request):
                   context_instance=RequestContext(request)
     )
 
-"""
+
 def customer_home(request):
     orders = Order.objects.filter(customer=request.user.id)
-    cart = Cart.objects.f
-    return render(request, 'ShoppingCartApp/customer_home.html', {'order': orders, 'form': form},)
-"""
+    cart = Cart.objects.get(customer=request.user.id)
+    stores = Store.objects.all()
+    return render(request, 'ShoppingCartApp/customer_home.html', {'orders': orders, 'cart': cart, 'stores': stores},)
 
+"""
 class CustomerListView(ListView):
 
     def get_queryset(self):
@@ -79,3 +80,4 @@ class CustomerListView(ListView):
     def get_context_data(self, **kwargs):
         context = super(CustomerListView, self).get_context_data(**kwargs)
         return context
+"""

@@ -78,6 +78,13 @@ class Order(models.Model):
     customer = models.ForeignKey(User)
     products = models.ManyToManyField(Product, through='ProductOrder')
 
+    def get_products(self):
+        product_results = set()
+        product_orders = ProductOrder.objects.filter(order=self)
+        for product_order in product_orders:
+            product_results.add(product_order.product)
+        return product_results
+
     def total(self):
         tot = 0
         for product in self.products():
@@ -85,7 +92,7 @@ class Order(models.Model):
         return tot
 
     def __str__(self):
-        return "%d: %s" % (self.id, self.customer)
+        return "%d" % (self.id)
 
 
 class ProductOrder(models.Model):
