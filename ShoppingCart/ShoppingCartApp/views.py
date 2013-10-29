@@ -64,6 +64,12 @@ def login_page(request):
                   context_instance=RequestContext(request)
     )
 
+"""
+def customer_home(request):
+    orders = Order.objects.filter(customer=request.user.id)
+    cart = Cart.objects.f
+    return render(request, 'ShoppingCartApp/customer_home.html', {'order': orders, 'form': form},)
+"""
 
 class CustomerListView(ListView):
 

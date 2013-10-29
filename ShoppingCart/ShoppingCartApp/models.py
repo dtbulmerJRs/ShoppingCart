@@ -52,8 +52,12 @@ class Cart(models.Model):
     customer = models.OneToOneField(User)
     products = models.ManyToManyField(Product, through='ProductCart')
 
-    def products(self):
-        return Product.objects.filter(carts=self)
+    def get_products(self):
+        product_results = set()
+        product_carts = ProductCart.objects.filter(cart=self)
+        for product_cart in product_carts:
+            product_results.add(product_cart.product)
+        return product_results
 
     def total(self):
         tot = 0
@@ -63,6 +67,11 @@ class Cart(models.Model):
 
     def __str__(self):
         return "%d: Cart for %s" % (self.id, self.customer)
+
+
+class ProductCart(models.Model):
+    product = models.ForeignKey(Product)
+    cart = models.ForeignKey(Cart)
 
 
 class Order(models.Model):
@@ -84,9 +93,7 @@ class ProductOrder(models.Model):
     order = models.ForeignKey(Order)
 
 
-class ProductCart(models.Model):
-    product = models.ForeignKey(Product)
-    cart = models.ForeignKey(Cart)
+
 
 
 
