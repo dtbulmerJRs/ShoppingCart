@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}Customer Home{% endblock %}
+
+{% block content %}
+
+
+    <p>Summary for User {{user}}</p>
+    <hr>
+    <p>Past Orders</p>
+        {% if orders %}
+            <ul>
+                {% for order in orders %}
+                    <li>
+                        Order: {{order}}: ${% if order.total %} {{ order.total }} {% else %}0 {% endif %}
+                        <ul>
+                            {% for product in order.get_products %}
+                            <li>
+                                {{product}}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    <hr>
+    <p>Current Cart: {{cart}}</p>
+        {% if cart.get_products %}
+            <ul>
+                {% for product in cart.get_products %}
+                    <li>
+                        Product: {{product}}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    <hr>
+    <p>Shop from these stores:</p>
+        {% if stores %}
+            <ul>
+                {% for store in stores %}
+                    <li>
+                        <p>Store: {{store}}</p>
+                        {% if store.products %}
+                            <ul>
+                                {% for product in store.products %}
+                                    <li>
+                                        Product: {{product}}
+                                        <input type="button" />
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+
+{% endblock %}
